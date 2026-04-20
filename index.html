@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensDict - Camera Dictionary</title>
+    <meta name="description" content="Point your camera at any text and instantly see word definitions. No typing, no internet needed.">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-inner">
+        <div class="nav-brand">
+            <img src="images/icon.png" alt="LensDict" class="nav-icon">
+            <span>LensDict</span>
+        </div>
+        <div class="nav-right">
+            <select id="lang-switcher" class="lang-switcher" aria-label="Language">
+                <option value="en">English</option>
+                <option value="zh-Hans">简体中文</option>
+                <option value="zh-Hant">繁體中文</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="es">Español</option>
+                <option value="pt-BR">Português</option>
+            </select>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <img src="images/icon.png" alt="LensDict App Icon" class="hero-icon">
+        <h1 data-i18n="appName">LensDict - Camera Dictionary</h1>
+        <p class="hero-subtitle" data-i18n="subtitle">Point. See. Learn. No typing needed.</p>
+        <p class="hero-promo" data-i18n="promo">Look up any word instantly — just point your camera at text. No typing, no internet required. Now with flash card sets and two-sides study mode!</p>
+        <a href="https://apps.apple.com/app/lensdict/id0000000000" class="app-store-badge" aria-label="Download on the App Store">
+            <svg viewBox="0 0 120 40" width="156" height="52">
+                <rect width="120" height="40" rx="6" fill="#000"/>
+                <text x="60" y="14" text-anchor="middle" fill="#fff" font-size="7" font-family="-apple-system, system-ui, sans-serif">Download on the</text>
+                <text x="60" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="600" font-family="-apple-system, system-ui, sans-serif">App Store</text>
+            </svg>
+        </a>
+    </div>
+</section>
+
+<!-- Screenshots -->
+<section class="screenshots">
+    <div class="container">
+        <div class="screenshots-track" id="screenshots-track">
+            <img src="images/screenshot-1.png" alt="Screenshot 1" loading="lazy">
+            <img src="images/screenshot-2.png" alt="Screenshot 2" loading="lazy">
+            <img src="images/screenshot-3.png" alt="Screenshot 3" loading="lazy">
+            <img src="images/screenshot-4.png" alt="Screenshot 4" loading="lazy">
+            <img src="images/screenshot-5.png" alt="Screenshot 5" loading="lazy">
+            <img src="images/screenshot-6.png" alt="Screenshot 6" loading="lazy">
+            <img src="images/screenshot-7.png" alt="Screenshot 7" loading="lazy">
+            <img src="images/screenshot-8.png" alt="Screenshot 8" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+    <div class="container">
+
+        <div class="feature-card">
+            <div class="feature-icon">📷</div>
+            <h2 data-i18n="feat1Title">How it works</h2>
+            <p data-i18n="feat1Desc">Simply aim your camera at a book, article, menu, or sign. LensDict automatically detects the word at the center crosshair, highlights it, and shows the definition in a floating card. Tap the screen to pause and explore deeper.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">📖</div>
+            <h2 data-i18n="feat2Title">Powerful lookup</h2>
+            <ul>
+                <li data-i18n="feat2a">Two built-in dictionaries: WordNet 3.1 and Wiktionary — with automatic fallback if a word isn't found in one</li>
+                <li data-i18n="feat2b">Long-press any word in a definition to look it up (deep lookup)</li>
+                <li data-i18n="feat2c">Lemmatization recognizes word forms — "running" finds "run", "children" finds "child"</li>
+                <li data-i18n="feat2d">Text-to-speech pronunciation for every word</li>
+                <li data-i18n="feat2e">Works entirely offline — no internet connection required</li>
+            </ul>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">💾</div>
+            <h2 data-i18n="feat3Title">Save &amp; organize</h2>
+            <ul>
+                <li data-i18n="feat3a">Bookmark words with one tap — each save captures a snapshot of what you were reading</li>
+                <li data-i18n="feat3b">Add personal notes with color coding to any saved word</li>
+                <li data-i18n="feat3c">Browse saved words with swipe navigation</li>
+            </ul>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🃏</div>
+            <h2 data-i18n="feat4Title">Flash Card Sets (Premium)</h2>
+            <ul>
+                <li data-i18n="feat4a">Organize saved words into custom-colored flash card decks by topic, lesson, or difficulty</li>
+                <li data-i18n="feat4b">Two-sides study mode: see the word first, tap to reveal the definition — perfect for self-testing</li>
+                <li data-i18n="feat4c">Shuffle mode for randomized review</li>
+                <li data-i18n="feat4d">Copy or move words between sets</li>
+                <li data-i18n="feat4e">Unlimited saved words (free users can save up to 50)</li>
+            </ul>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">⭐</div>
+            <h2 data-i18n="feat5Title">Premium Plans</h2>
+            <ul>
+                <li data-i18n="feat5a">Monthly, yearly (with 7-day free trial), or one-time lifetime purchase</li>
+                <li data-i18n="feat5b">Free users enjoy full camera dictionary and up to 50 saved words</li>
+            </ul>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h2 data-i18n="feat6Title">Privacy first</h2>
+            <ul>
+                <li data-i18n="feat6a">No account required</li>
+                <li data-i18n="feat6b">No data leaves your device</li>
+                <li data-i18n="feat6c">No tracking, no ads</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- Support -->
+<section class="support">
+    <div class="container">
+        <h2 data-i18n="supportTitle">Support</h2>
+        <p data-i18n="supportDesc">Have a question, feedback, or need help? We'd love to hear from you.</p>
+        <a href="mailto:lensdict@gmail.com" class="support-email">lensdict@gmail.com</a>
+        <p class="support-links">
+            <a href="privacy.html" data-i18n="privacyLink">Privacy Policy</a>
+        </p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 LensDict. <span data-i18n="footerRights">All rights reserved.</span></p>
+    </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>
