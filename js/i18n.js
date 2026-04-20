@@ -44,7 +44,7 @@ const translations = {
     feat2Title: "强大的查词功能",
     feat2a: "内置两部词典：WordNet 3.1 和 Wiktionary——一部查不到自动切换另一部",
     feat2b: "长按释义中的任意单词可跳转查看该词（深度查词）",
-    feat2c: "智能词形还原——"running"自动匹配"run"，"children"自动匹配"child"",
+    feat2c: "智能词形还原——\u201Crunning\u201D自动匹配\u201Crun\u201D，\u201Cchildren\u201D自动匹配\u201Cchild\u201D",
     feat2d: "每个单词均支持语音朗读",
     feat2e: "完全离线使用——无需任何网络连接",
     feat3Title: "保存与整理",
