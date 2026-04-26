@@ -177,7 +177,7 @@ const translations = {
 
   es: {
     appName: "LensDict - Diccionario con Cámara",
-    subtitle: "Apunta. Mira. Aprende. Sin teclear.",
+    subtitle: "Apunta. Mira. Aprende.",
     promo: "Busca cualquier palabra al instante: solo apunta tu cámara al texto. Sin teclear, sin internet. ¡Ahora con sets de tarjetas y modo de estudio de dos caras!",
     feat1Title: "Cómo funciona",
     feat1Desc: "Simplemente apunta tu cámara a un libro, artículo, menú o letrero. LensDict detecta automáticamente la palabra en el centro de la mira, la resalta y muestra la definición en una tarjeta flotante. Toca la pantalla para pausar y explorar con más detalle.",
@@ -212,8 +212,8 @@ const translations = {
 
   "pt-BR": {
     appName: "LensDict - Dicionário com Câmera",
-    subtitle: "Aponte. Veja. Aprenda. Sem digitar.",
-    promo: "Consulte qualquer palavra instantaneamente — basta apontar a câmera para o texto. Sem digitar, sem internet. Agora com conjuntos de flashcards e modo de estudo frente e verso!",
+    subtitle: "Aponte. Veja. Aprenda.",
+    promo: "Consulte qualquer palavra instantaneamente — aponte a câmera para o texto. Sem digitar, sem internet. Agora com flashcards e modo de estudo frente e verso!",
     feat1Title: "Como funciona",
     feat1Desc: "Basta apontar a câmera para um livro, artigo, menu ou placa. O LensDict detecta automaticamente a palavra no centro da mira, destaca-a e exibe a definição em um cartão flutuante. Toque na tela para pausar e explorar com mais detalhes.",
     feat2Title: "Busca poderosa",
